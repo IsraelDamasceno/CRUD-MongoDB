@@ -1,0 +1,14 @@
+C:\Users\Israel Damasceno\LivrosApi\bin\Debug\netcoreapp2.1\LivrosApi.deps.json
+C:\Users\Israel Damasceno\LivrosApi\bin\Debug\netcoreapp2.1\LivrosApi.runtimeconfig.json
+C:\Users\Israel Damasceno\LivrosApi\bin\Debug\netcoreapp2.1\LivrosApi.runtimeconfig.dev.json
+C:\Users\Israel Damasceno\LivrosApi\bin\Debug\netcoreapp2.1\LivrosApi.dll
+C:\Users\Israel Damasceno\LivrosApi\bin\Debug\netcoreapp2.1\LivrosApi.pdb
+C:\Users\Israel Damasceno\LivrosApi\obj\Debug\netcoreapp2.1\LivrosApi.csprojAssemblyReference.cache
+C:\Users\Israel Damasceno\LivrosApi\obj\Debug\netcoreapp2.1\LivrosApi.csproj.CoreCompileInputs.cache
+C:\Users\Israel Damasceno\LivrosApi\obj\Debug\netcoreapp2.1\LivrosApi.RazorAssemblyInfo.cache
+C:\Users\Israel Damasceno\LivrosApi\obj\Debug\netcoreapp2.1\LivrosApi.RazorAssemblyInfo.cs
+C:\Users\Israel Damasceno\LivrosApi\obj\Debug\netcoreapp2.1\LivrosApi.AssemblyInfoInputs.cache
+C:\Users\Israel Damasceno\LivrosApi\obj\Debug\netcoreapp2.1\LivrosApi.AssemblyInfo.cs
+C:\Users\Israel Damasceno\LivrosApi\obj\Debug\netcoreapp2.1\LivrosApi.RazorTargetAssemblyInfo.cache
+C:\Users\Israel Damasceno\LivrosApi\obj\Debug\netcoreapp2.1\LivrosApi.dll
+C:\Users\Israel Damasceno\LivrosApi\obj\Debug\netcoreapp2.1\LivrosApi.pdb
