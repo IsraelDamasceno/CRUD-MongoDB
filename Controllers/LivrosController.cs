@@ -9,7 +9,7 @@ namespace LivrosApi.Controllers
     [ApiController]
     public class LivrosController : ControllerBase
     {
-        private readonly LivroService _livroService;
+        private  LivroService _livroService;
 
         public LivrosController(LivroService livroService)
         {

@@ -20,5 +20,18 @@ namespace LivrosApi.Models
 
         [BsonElement("Author")]
         public string Author { get; set; }
+
+        public Livro(string id, string livroName,  decimal price, string category, string author )
+        {
+            id = Id;
+            livroName = LivroName;
+            price = Price;
+            category = Category;
+            author = Author;
+        }
+        public Livro()
+        {
+
+        }
     }
 }

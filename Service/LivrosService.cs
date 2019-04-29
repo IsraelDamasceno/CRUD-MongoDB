@@ -6,9 +6,10 @@ using MongoDB.Driver;
 
 namespace LivrosApi.Services
 {
-    public class LivroService
+    public class LivroService : ILivroService
     {
         private readonly IMongoCollection<Livro> _livros;
+
 
         public LivroService(IConfiguration config)
         {
