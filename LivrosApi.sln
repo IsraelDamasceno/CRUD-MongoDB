@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LivrosApi", "LivrosApi.cspr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LivrosTest", "..\LivrosTest\LivrosTest.csproj", "{A1BA5FC9-9608-4355-B438-1A349FDBDDF3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{F741751F-B5CC-4133-B309-27EF581B13C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SRC", "SRC", "{5E933D4B-9689-42B1-BFF7-8614996097F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +28,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0F27EDD5-63E0-4DB1-BEDE-CFCF83C247ED} = {5E933D4B-9689-42B1-BFF7-8614996097F6}
+		{A1BA5FC9-9608-4355-B438-1A349FDBDDF3} = {F741751F-B5CC-4133-B309-27EF581B13C4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {310449D4-9ED9-467A-82B3-E0B7864923D8}

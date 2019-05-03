@@ -1,38 +1,37 @@
-﻿using System;
-using LivrosApi.Models;
-
-namespace LivrosApi.Biblioteca
+﻿namespace LivrosApi.Biblioteca
 {
-    public class CadastrarLivros
+    public class EmprestimoLivros
     {
-        private Livro _livro;
-
-        public CadastrarLivros(Livro livro)
+        public string Emprestareilivro(string resposta)
         {
-            _livro = livro;
+            return "OK";
         }
-        public void EL()
+        public string Disponivel(bool disponivel)
         {
-            if (string.IsNullOrWhiteSpace (_livro.LivroName))
+
+            if (disponivel == true)
             {
-                throw new Exception("Informe o nome corretamente");
+                return "OK";
+            }
+            else
+            {
+                return "Falta Livro";
             }
 
-            if (string.IsNullOrWhiteSpace(_livro.Category))
-            {
-                throw new Exception("Informe a categoria  corretamente");
-            }
+        }
+        public string Emprestarlivroagora(bool disponivel)
+        {
 
-            if (string.IsNullOrWhiteSpace(_livro.Author))
+            if (disponivel == true)
             {
-                throw new Exception("Informe o nome do autor corretamente");
+                return "OK";
             }
-
-            if (_livro.Price < 0m && _livro.Price == null)
+            else
             {
-                throw new Exception("Informe o valor corretamente");
+                return "Falta Livro";
             }
         }
+
     }
 }
 
